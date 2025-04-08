@@ -1,28 +1,27 @@
-# Python
+# 🐍 Python / Django
 __pycache__/
 *.py[cod]
 *.pyc
+*.log
 
-# Django
+# 🐍 Django
 backend/venv/
 backend/.env
 backend/db.sqlite3
 
-# React
+# ⚛️ React (only for dev, since it's bundled now)
 frontend/node_modules/
-frontend/build/
 frontend/.env
 
-# General
-.env
-.DS_Store
-*.log
-*.bak
-*.tmp
+# 🐳 Docker
+postgres_data/
 
-# VSCode / IDEs
+# 💻 System / IDE
+.DS_Store
 .vscode/
 .idea/
-
-# OS files
 Thumbs.db
+
+# 🧹 Other
+*.bak
+*.tmp
