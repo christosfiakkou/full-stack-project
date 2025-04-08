@@ -9,7 +9,7 @@ This is a full-stack web application built with **React (TypeScript)** for the f
 - ⚛️ **Frontend**: React + TypeScript + Bootstrap
 - 🐍 **Backend**: Django + Django REST Framework
 - 🐘 **Database**: PostgreSQL
-- 🐳 **Deployment**: Docker & Docker Compose (optional)
+- 🐳 **Deployment**: Docker & Docker Compose
 
 ---
 
@@ -52,3 +52,25 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+
+
+
+
+Github Push:
+# Stage everything (new + modified)
+git add .
+
+# Commit with a clear message
+git commit -m "Initial full-stack project setup: backend, frontend, Docker, config"
+
+# Push to GitHub
+git push
+
+
+
+🔁 Dev Workflow
+Action	Command
+Start all services	docker-compose up
+Rebuild images	docker-compose up --build
+Stop services	CTRL + C
+Remove containers	docker-compose down
